@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compre aqui</title>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Compre aqui</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#destaque" class="nav-link">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#voce-pode-gostar" class="nav-link">
+                            Você pode gostar 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#lancamento" class="nav-link">
+                            Produtos novos e lançamento
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#oferta-destaque" class="nav-link">
+                            Oferta em Destaque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            Sobre
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="destaque">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="img/carousel/callofduty.jpeg" alt="Call of duty">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/fornite.jpeg" alt="imagem do fornite">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/valorant.jpg" alt="imagem valorant">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="mt-4 mb-4 text-center">Você pode  Gostar</h2>
+                <div class="row" id="voce-pode-gostar">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Cadeira Gamer Pichau</h4>
+                            <img src="/img/section_1/cadeira.jpg" alt="Cadeira Gamer Pichau">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Gabinete Black</h4>
+                            <img src="/img/section_1/gabinete.jpg" alt="Gabinete Black">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Monitor Gamer</h4>
+                            <img src="/img/section_1/monitor.jpg" alt="Monitor Gamer">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Placa de video</h4>
+                            <img src="/img/section_1/placa_de_video.jpg" alt="Placa de video">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="mt-4 mb-4 text-center">Produtos Novos e Lançamentos</h2>
+                <div class="row" id="lancamento">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Gabinete Branco com RGB</h4>
+                            <img src="/img/section_2/gabinete.jpg" alt="Gabinete Branco com RGB">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis, odit error minus atque eum explicabo enim nam ut, aspernatur ad facere accusantium sunt
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4">Headset RedDragon</h4>
+                            <img src="/img/section_2/headset.jpg" alt="Headset RedDragon">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis, odit error minus atque eum explicabo enim nam ut, aspernatur ad facere accusantium sunt
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4">Monitor BENQ</h4>
+                            <img src="/img/section_2/monitor.jpg" alt="Monitor BENQ">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis, odit error minus atque eum explicabo enim nam ut, aspernatur ad facere accusantium sunt
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4">Teclado e mouse</h4>
+                            <img src="/img/section_2/telcado.jpg" alt="Teclado e mouse">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis, odit error minus atque eum explicabo enim nam ut, aspernatur ad facere accusantium sunt
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="mt-4 mb-4 text-center">Oferta em Destaque</h2>
+                <div class="row" id="oferta-destaque">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Gabinete RedDragon</h4>
+                            <img src="/img/section_3/gabinete.jpg" alt="Gabinete RedDragon">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Gabinete Pichau</h4>
+                            <img src="/img/section_3/gabinete_branco.jpg" alt="Gabinete Pichau">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Monitor Gamer</h4>
+                            <img src="/img/section_3/monitor.jpg" alt="Monitor Gamer">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="card mx-auto">
+                            <h4 class="text-center card-title mt-4 fs-5">Teclado RedDragon RGB</h4>
+                            <img src="/img/section_3/teclado.jpg" alt="Teclado RedDragon RGB">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sequi saepe numquam nihil expedita repellat officia, vitae, suscipit ullam laudantium deserunt nesciunt magni quo temporibus quia officiis, impedit amet vero.
+                            </p>
+                            <button type="button" class="btn btn-danger d-block">
+                                Adicionar ao carrinho
+                                <i class="bi bi-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">
+                        Fale conosco</h2>
+                    </div>
+                    <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colunm nav-informacao custom-nav">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobre-nos" class="fw-bold nav-link active">Sobre Nós</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#social-link" class="fw-bold nav-link">Rede Sociais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#endereco" class="fw-bold nav-link">Onde estamos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mensagem" class="fw-bold nav-link">Deixe Sua mensagens</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="sobre-nos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                    <img src="https://flitz.com.br/wp-content/uploads/2020/02/flitz-loja-gamer-salvador-bahia-1024x671.jpg" alt="" class="d-block w-100">
+                                    <h5 class="fw-bold mt-2">Sobre nós</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis facere architecto dicta dolorem fugit itaque dolor illo? Beatae fugit id voluptatem magni quam, velit officia vero maxime vel expedita voluptate!
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="tab-pane" id="social-link">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h5 class="text-center fw-bold mt-2">Rede sociais</h5>
+                                        <ul class="social-link">
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-facebook"> Facebook</i>
+                                            </a>
+                                        </li>
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-instagram"> Instagram</i>
+                                            </a>
+                                        </li>
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-youtube"> Youtube</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="endereco">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <h5>
+                                                <i class="bi bi-cursor-fill"></i>
+                                                Onde estamos</h5>
+                                                <p>
+                                                    Rua teste exemplo Nº123, Bairro Bootstrap -São paulo - SP
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="mensagem">
+                                    <div class="row">
+                                        <div class="col-md-10">
+                                            <h5>
+                                                <i class="bi bi-chat-square-text-fill"></i>
+                                                Deixe-nos sua mensagem!
+                                            </h5>
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="nome" id="nome" class="form-label">Seu nome</label>
+                                                    <input type="text" id="nome" class="form-label" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="email" id="email" class="form-label">Seu E-mail</label>
+                                                    <input type="email" id="email" class="form-label" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="telefone" id="telefone" class="form-label fs-6">Seu telefone</label>
+                                                    <input type="tel" id="telefone" class="form-label" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="mensagem" id="mensagem" class="form-label">Sua mensagem</label>
+                                                    <textarea type="text" id="mensagem" class="form-label" required></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-danger">Enviar</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
